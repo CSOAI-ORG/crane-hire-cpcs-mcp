@@ -1,0 +1,28 @@
+name: crane-hire-cpcs-mcp
+description: 'MCP server: crane-hire-cpcs-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/crane-hire-cpcs-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: verify_cpcs_card
+  description: CPCS card validity check by card number
+- name: generate_lift_plan
+  description: BS 7121 lift plan template generator
+- name: appointed_person_check
+  description: BS 7121-1 Appointed Person duties checklist
+- name: crane_categories
+  description: Mobile crane / tower crane / lorry loader category list
+- name: loler_thorough_examination
+  description: LOLER thorough examination reporting requirements
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

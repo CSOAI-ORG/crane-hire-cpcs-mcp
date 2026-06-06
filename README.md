@@ -4,6 +4,20 @@
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/crane_hire_cpcs_mcp/)
+mcp-name: io.github.CSOAI-ORG/crane-hire-cpcs-mcp
+
+# Crane Hire CPCS MCP
+
+
+> ## Buy Starter — £29/mo
+> **Signed attestations + unlimited audits + email support.**
+> 👉 **[Subscribe at meok.ai](https://buy.stripe.com/14AcN70xS6oq8sl56o8k901)** — instant HMAC signing key + Stripe-managed billing.
+>
+> Free tier remains MIT-licensed and zero-config. Upgrade only when you need signed compliance artefacts for audit.
+
+[![PyPI](https://img.shields.io/pypi/v/crane-hire-cpcs-mcp)](https://pypi.org/project/crane-hire-cpcs-mcp/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-trade--vertical-purple)](https://meok.ai)
 
 > UK crane hire compliance MCP
 
@@ -34,6 +48,9 @@ npx -y @smithery/cli@latest install crane-hire-cpcs-mcp --client claude
 - [Full Documentation](https://docs.meok.ai/crane-hire-cpcs-mcp)
 - [API Reference](https://api.meok.ai)
 - [EU AI Act Compliance Guide](https://councilof.ai/compliance)
+- **Free**: 10 calls/day
+- **Pro** £79/mo: unlimited + signed attestations. [Subscribe](https://buy.stripe.com/00wfZjcgAeUW4c5cyQ8k90K)
+- **Enterprise** £1,499/mo: white-label + on-premise. hello@meok.ai
 
 ## 🛡️ Compliance
 
@@ -76,3 +93,44 @@ MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 <p align="center">
   <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
 </p>
+<!-- mcp-name: io.github.CSOAI-ORG/crane-hire-cpcs-mcp -->
+
+<!-- BUY-LADDER:START -->
+
+## 💸 Try MEOK in 30 seconds — instant buy ladder
+
+| Tier | Price | What you get | Stripe |
+|---|---|---|---|
+| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/dRmcN75ScdQS7oh1Uc8k90U> |
+| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/cNi00la8s1460ZT0Q88k90V> |
+| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/8x228ta8s6oqbExaqI8k90W> |
+
+> Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
+> Verify any signed report at <https://meok.ai/verify>.
+
+<!-- BUY-LADDER:END -->
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "crane-hire-cpcs-mcp": {
+      "command": "uvx",
+      "args": ["crane-hire-cpcs-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install crane-hire-cpcs-mcp` then run the `crane-hire-cpcs-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `verify_cpcs_card` to …"
+- "Use `generate_lift_plan` to …"
+- "Use `appointed_person_check` to …"

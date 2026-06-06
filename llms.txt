@@ -1,32 +1,21 @@
-# Crane Hire Cpcs MCP
+# crane-hire-cpcs-mcp
 
-> UK crane hire compliance MCP
+> CPCS / CISRS / NPORS card verification, BS 7121 lift plans, mobile crane / tower crane operator certification.
 
-`crane-hire-cpcs-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- verify_cpcs_card
+- generate_lift_plan
+- appointed_person_check
+- crane_categories
+- loler_thorough_examination
 
 ## Install
-
-```bash
+```
 pip install crane-hire-cpcs-mcp
 ```
 
-Or run without installing:
-
-```bash
-uvx crane-hire-cpcs-mcp
-```
-
-## Tools
-
-- `verify_cpcs_card` — CPCS card validity check by card number
-- `generate_lift_plan` — BS 7121 lift plan template generator
-- `appointed_person_check` — BS 7121-1 Appointed Person duties checklist
-- `crane_categories` — Mobile crane / tower crane / lorry loader category list
-- `loler_thorough_examination` — LOLER thorough examination reporting requirements
-
 ## Links
-
-- Source: https://github.com/CSOAI-ORG/crane-hire-cpcs-mcp
 - PyPI: https://pypi.org/project/crane-hire-cpcs-mcp/
-- MEOK AI Labs: https://meok.ai
-- Council of AI: https://councilof.ai
+- Docs: https://meok.ai

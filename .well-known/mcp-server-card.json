@@ -1,0 +1,28 @@
+{
+  "name": "crane-hire-cpcs-mcp",
+  "title": "Crane Hire Cpcs Mcp",
+  "description": "CPCS / CISRS / NPORS card verification, BS 7121 lift plans, mobile crane / tower crane operator certification.",
+  "version": "1.0.4",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "verify_cpcs_card"
+    },
+    {
+      "name": "generate_lift_plan"
+    },
+    {
+      "name": "appointed_person_check"
+    },
+    {
+      "name": "crane_categories"
+    },
+    {
+      "name": "loler_thorough_examination"
+    }
+  ]
+}
