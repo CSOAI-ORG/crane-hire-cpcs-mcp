@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "crane-hire-cpcs-mcp",
+    "description": "CPCS / CISRS / NPORS card verification, BS 7121 lift plans, mobile crane / tower crane operator ...",
+    "version": "1.0.4",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "crane-hire-cpcs-mcp"
+      }
+    ],
+    "capabilities": [
+      "verify_cpcs_card",
+      "generate_lift_plan",
+      "appointed_person_check",
+      "crane_categories",
+      "loler_thorough_examination"
+    ]
+  }
+}

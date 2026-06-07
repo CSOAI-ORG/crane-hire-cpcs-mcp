@@ -1,0 +1,68 @@
+{
+  "name": "crane-hire-cpcs-mcp",
+  "description": "CPCS / CISRS / NPORS card verification, BS 7121 lift plans, mobile crane / tower crane operator ...",
+  "url": "https://proofof.ai/scorecard/crane-hire-cpcs-mcp.html",
+  "version": "1.0.4",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "verify_cpcs_card",
+      "name": "Verify Cpcs Card",
+      "description": "verify_cpcs_card via crane-hire-cpcs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_lift_plan",
+      "name": "Generate Lift Plan",
+      "description": "generate_lift_plan via crane-hire-cpcs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "appointed_person_check",
+      "name": "Appointed Person Check",
+      "description": "appointed_person_check via crane-hire-cpcs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "crane_categories",
+      "name": "Crane Categories",
+      "description": "crane_categories via crane-hire-cpcs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "loler_thorough_examination",
+      "name": "Loler Thorough Examination",
+      "description": "loler_thorough_examination via crane-hire-cpcs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
