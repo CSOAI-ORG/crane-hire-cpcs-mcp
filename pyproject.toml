@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "crane-hire-cpcs-mcp"
 readme = "README.md"
-version = "1.0.4"
+version = "1.0.7"
 description = "CPCS / CISRS / NPORS card verification, BS 7121 lift plans, mobile crane / tower crane operator certification."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
