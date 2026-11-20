@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "crane-hire-cpcs-mcp"
 readme = "README.md"
-version = "1.0.8"
+version = "1.0.10"
 description = "CPCS / CISRS / NPORS card verification, BS 7121 lift plans, mobile crane / tower crane operator certification."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -17,7 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries",
 ]
-dependencies = ["mcp>=1.0.0"]
+dependencies = ["mcp>=1.0.0,<2"]
 
 [project.urls]
 Homepage = "https://meok.ai"
